@@ -1,0 +1,88 @@
+#login-form {
+	width: 17em;
+	margin: 100px auto;
+}
+
+#logout-form {
+	display: inline-block;
+}
+
+p.error, td.error {
+	color: #B80000;
+}
+
+div.indicator-line {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	color: #FFFFFF;
+	width: 100%;
+	margin: 1em 0em;
+}
+
+div.indicator-line div {
+	padding-left: 1em;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+div.error {
+	background-color: #B80000;
+}
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+}
+
+table {
+	border: 1px solid black;
+	padding: 2px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th.main {
+	background-color: #8AB8E6;
+}
+
+td.centered {
+	text-align: center;
+}
+
+td.right {
+	text-align: right;
+}
+
+td.short input[type="text"] {
+	width: 4em;
+	margin: 0px 10px 0px 1px;
+}
+
+div.float-left {
+	float: left;
+} 
+
+div.results {
+	position: relative;
+	left: 20px;
+}
+
+table.results th {
+	background-color: #8AB8E6;
+}
+
+table.results td {
+	background-color: #FFFFFF;
+}
+
+table.results th, table.results td {
+	border: 1px solid #000000;
+}
